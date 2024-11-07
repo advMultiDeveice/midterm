@@ -1,0 +1,23 @@
+.bali-holder{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    .bali{
+        background-image: url(../assests/bali.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 600px;
+    }
+    .bali-info{
+        color: white;
+        font-size: 30px;
+    }
+}
